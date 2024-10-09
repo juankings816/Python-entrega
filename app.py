@@ -7,3 +7,5 @@ app = Flask(__name__)
 app.secret_key="1234"
 
 client = pymongo.MongoClient("mongodb://localhost:27017")
+
+db = client.todoPY
